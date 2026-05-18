@@ -1,0 +1,17 @@
+name: ric-seq-workflow
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - fastqc
+  - multiqc
+  - trimmomatic
+  - cutadapt
+  - fastp
+  - bowtie2
+  - star
+  - samtools
+  - sra-tools
+  - pandas
