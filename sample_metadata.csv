@@ -1,0 +1,2 @@
+SRR_ID,Sample_Name,Species,Data_Type,Condition,Notes
+SRR8632820,RICseq_example,Homo sapiens,RIC-seq,Example,Public RIC-seq dataset used for workflow demonstration
