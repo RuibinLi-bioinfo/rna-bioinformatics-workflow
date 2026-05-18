@@ -1,0 +1,8 @@
+Step,Input,Output,Tool
+Data download,SRR accession,FASTQ files,Kingfisher
+Raw quality control,Raw FASTQ,FastQC reports,FastQC
+Adapter trimming,Raw FASTQ,Trimmed FASTQ,Trimmomatic
+Duplicate removal,Trimmed FASTQ,Deduplicated FASTQ,Perl script
+polyG/polyN trimming,Deduplicated FASTQ,Clean FASTQ,cutadapt
+rRNA filtering,Clean FASTQ,Non-rRNA FASTQ,Bowtie2
+Chimeric alignment,Non-rRNA FASTQ,BAM and chimeric junctions,STAR
