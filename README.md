@@ -34,7 +34,7 @@ This workflow includes:
 - FASTQ quality control
 - Trimmomatic-based adapter trimming
 - PCR duplicate removal
-- cutadapt / fastp-based read filtering
+- cutadapt-based polyG / terminal-N trimming and length filtering
 - Bowtie2-based rRNA filtering
 - STAR genome index construction
 - STAR chimeric alignment
